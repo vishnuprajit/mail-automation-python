@@ -1,0 +1,5 @@
+Hello all! I am Vishnu Prajit V.
+
+I am using a Python script to send this mail to you and everyone at once.
+
+Thanks for everything!
