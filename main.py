@@ -1,15 +1,25 @@
-import smtplib
+import smtplib, sys
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase 
 from email import encoders 
 
+print("### Automated mailing with Gmail using Python ###")
+flag = input("Have you filled up the subject, body, and recipients text files in this folder (Y/n)? ")
+
+if flag == "Y" or flag == "y" or flag == "yes" or flag == "YES" or flag == "Yes":
+    pass
+else:
+    print("Go on and fill up the content...!")
+    sys.exit(1)
+
+print()
 # Getting credentials, and attachment name from STDIN
 sender_mail = input("Enter your Gmail ID: ")
 print("NOTE: Turn on 'Less Secure App Access' in your Gmail in order to send the mail using this script !!!\n")           
 sender_pass = input("Enter your password: ")                                       
 print()
-print("NOTE: Copy your attachment to this script's folder before proceeding...!\n")
+print("NOTE: Copy your attachment to this script's folder before proceeding...!")
 print()
 filename = input('Enter File Name With Extension To Attach: ')
 
