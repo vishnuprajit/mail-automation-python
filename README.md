@@ -11,4 +11,4 @@ This Python script allows to send an email to multiple people at once.
 6. Execute the script.
 7. Enter your Gmail ID and password. Enter the filename you just copied into the folder for attaching.
 
-### ** Enjoy the automation...!
+## **Enjoy the automation...!**
